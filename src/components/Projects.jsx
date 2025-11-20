@@ -38,7 +38,7 @@ const Projects = () => {
         'Multi-language support'
       ],
       github: 'https://github.com/JaimeQuezadaJr/whisper-live',
-      videoDemo: 'https://drive.google.com/file/d/14URCjo24qHNHaaUie8EHxDKSQajQoSQ-/preview',
+      videoDemo: 'https://drive.google.com/file/d/18OKN8q01Ia9nC3magIpQieQ1uWNAFC6F/preview',
       hasVideo: true
     },
     {
