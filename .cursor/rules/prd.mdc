@@ -1,0 +1,202 @@
+Portfolio Application PRD
+Project Overview
+
+Project Name: Jaime Quezada AI Portfolio
+Type: Single-page web application (React.js)
+Purpose: Showcase AI projects, software skills, and career journey. Highlight transition from mechanical engineering to AI/software development.
+Target Audience: Recruiters, potential employers, collaborators in AI/software development.
+
+Goals
+
+Present a clear narrative of Jaime’s background and transition from engineering to AI.
+
+Highlight AI and software projects with demos, screenshots, and technical details.
+
+Provide contact information and GitHub links.
+
+Maintain a clean, modern, minimalist UI with intuitive navigation.
+
+User Stories
+
+As a recruiter, I want to quickly see Jaime’s experience and skills so I can evaluate fit for AI/software roles.
+
+As a visitor, I want to explore Jaime’s AI projects and see demos so I can understand his technical capabilities.
+
+As a collaborator, I want easy access to GitHub repos and contact info so I can connect or view code.
+
+App Structure (Single-page layout)
+1. Header / Hero Section
+
+Content:
+
+Name: Jaime Quezada
+
+Title: AI & Software Developer | Mechanical Engineer
+
+Short tagline: “Building intelligent applications and bridging engineering with AI.”
+
+Contact buttons: Email, LinkedIn, GitHub
+
+UI Notes:
+
+Large, clean font
+
+Centered text
+
+Minimalist background (white or light gradient)
+
+2. Summary / About Section
+
+Content:
+
+Career summary: Mechanical engineering → Software → AI projects
+
+Key skills: Python, Local LLMs, Whisper, Claude, React.js, Flask
+
+UI Notes:
+
+Two-column layout (text + icon/illustration)
+
+Minimal icons representing skills
+
+3. Skills Section
+
+Content: Categorized technical skills
+
+Programming Languages: Python, JavaScript
+
+AI/ML: Local LLMs, Whisper, Claude, Prompt Engineering
+
+Web Development: React.js, Flask, HTML/CSS
+
+Tools: Git, Docker, PyTorch, Pandas, NumPy
+
+UI Notes:
+
+Grid or card layout
+
+Each skill with small icon or badge
+
+4. Projects Section
+
+Each project as a card/tile with:
+
+Project title
+
+Short description
+
+Tech stack
+
+Role / contributions
+
+Screenshot/GIF/demo link
+
+GitHub / live demo link
+
+Projects:
+
+Local LLM Chatbot
+
+Local chatbot using a hosted LLM
+
+Python, Ollama, FastAPI/Flask
+
+Features real-time conversation
+
+Real-time Transcription App
+
+Built with OpenAI Whisper
+
+Python, PyTorch
+
+Streams audio to text in real-time
+
+AI-powered eCommerce App
+
+Product recommendation system using Claude
+
+React.js frontend, Flask backend
+
+Intelligent shopping assistant
+
+UI Notes:
+
+Clean cards with hover effect
+
+Tech stack icons displayed on each card
+
+Optional modal popup with project details
+
+5. Experience Section
+
+Content:
+
+Mechanical Engineering: 7 years, CAD, product design, optimization
+
+Software Development: 6-month contract refactoring Python legacy code
+
+AI Projects: Independent exploration of LLMs, Whisper, Claude
+
+UI Notes:
+
+Timeline layout or vertical list
+
+Minimalist icons for each experience type
+
+6. Contact Section
+
+Content:
+
+Email, LinkedIn, GitHub links
+
+Optional contact form for direct messages
+
+UI Notes:
+
+Simple, centered layout
+
+Clean buttons with hover effect
+
+UI/UX Guidelines
+
+Design Style: Modern, minimalist, white/light backgrounds
+
+Typography: Clean, readable sans-serif font
+
+Color Palette: Neutral with 1–2 accent colors
+
+Responsiveness: Mobile-first, scales well on tablets & desktop
+
+Animations: Subtle hover/transition effects for cards and buttons
+
+Technical Requirements
+
+Framework: React.js (create-react-app or Vite)
+
+State Management: Minimal (React hooks, Context if needed)
+
+Styling: Tailwind CSS or CSS Modules
+
+Media: Use optimized screenshots/GIFs for projects
+
+Hosting: GitHub Pages, Vercel, or Netlify
+
+Future Enhancements
+
+Add blog/tutorial section to showcase AI experiments
+
+Include video demos of projects
+
+Enable dark mode toggle
+
+Analytics for visitor tracking
+
+Deliverables
+
+Fully functional single-page React application
+
+Responsive and minimalist UI
+
+Hosted portfolio (GitHub Pages / Vercel / Netlify)
+
+Optional downloadable PDF version
