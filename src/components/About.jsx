@@ -21,7 +21,7 @@ const About = () => {
             <div className={`flex-shrink-0 ${isVisible ? 'animate-slideInLeft' : 'opacity-0'}`}>
               <div className="w-64 overflow-hidden border border-gray-300 rounded-lg hover:border-black transition-all duration-500 hover:scale-105 hover:shadow-2xl">
                 <img 
-                  src="/profile.jpeg" 
+                  src="./profile.jpeg" 
                   alt="Jaime Quezada" 
                   className="w-full h-auto object-cover"
                 />
