@@ -18,7 +18,7 @@ const About = () => {
         
           <div className="flex flex-col md:flex-row gap-12 items-start">
             {/* Profile Image */}
-            <div className={`flex-shrink-0 ${isVisible ? 'animate-slideInLeft' : 'opacity-0'}`}>
+            <div className={`flex-shrink-0 mx-auto md:mx-0 ${isVisible ? 'animate-slideInLeft' : 'opacity-0'}`}>
               <div className="w-64 overflow-hidden border border-gray-300 rounded-lg hover:border-black transition-all duration-500 hover:scale-105 hover:shadow-2xl">
                 <img 
                   src="./profile.jpeg" 

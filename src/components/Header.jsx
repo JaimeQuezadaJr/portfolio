@@ -56,7 +56,7 @@ const Header = () => {
           </div>
           
           <h2 className="text-xl md:text-2xl text-gray-600 font-light tracking-wide animate-fadeIn delay-300" style={{ animationDuration: '1.2s' }}>
-            AI <span className="inline-block min-w-[140px] text-left">{text}<span className="border-r-2 border-gray-600 cursor-blink ml-1"></span></span>
+            AI <span className="inline-block min-w-[10px] text-center md:text-left">{text}<span className="border-r-2 border-gray-600 cursor-blink ml-1"></span></span>
           </h2>
           
           <p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed font-light animate-fadeIn delay-500" style={{ animationDuration: '1.2s' }}>
