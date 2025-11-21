@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Brain, Code, Wrench, GraduationCap, X, Github, Linkedin } from 'lucide-react';
+import { Brain, Code, Wrench, GraduationCap, X, Github, Linkedin, FileText } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const Experience = () => {
@@ -110,9 +110,18 @@ const Experience = () => {
             Experience Timeline
           </h2>
           <div className="h-px w-16 bg-black mx-auto mb-6"></div>
-          <p className="text-gray-500 font-light">
+          <p className="text-gray-500 font-light mb-6">
             My journey in engineering, software development, and AI.
           </p>
+          <a
+            href="./Jaime_Quezada.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-black transition-all duration-300 group border-b border-transparent hover:border-black pb-1"
+          >
+            <FileText size={16} strokeWidth={1.5} className="group-hover:scale-110 transition-transform" />
+            <span className="font-light">Download Resume</span>
+          </a>
         </div>
         
         <div className="relative">

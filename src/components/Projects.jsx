@@ -46,7 +46,7 @@ const Projects = () => {
       title: 'Full-Stack eCommerce Platform',
       icon: <ShoppingCart size={32} strokeWidth={1.5} />,
       description: 'Built a complete eCommerce platform leveraging AI-assisted development and advanced prompt engineering. Showcases rapid prototyping capabilities - delivering a production-ready full-stack application in 7 days, a timeline that traditionally takes 4+ weeks.',
-      techStack: ['React.js', 'Node.js', 'Express', 'PostgreSQL', 'Vercel'],
+      techStack: ['React.js', 'Node.js', 'Express', 'SQLite', 'Vercel'],
       metrics: [
         'Rapid AI-assisted development (7 days vs 30 days)',
         'Advanced prompt engineering for clean code generation',
