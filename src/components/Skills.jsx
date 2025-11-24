@@ -13,7 +13,7 @@ const Skills = () => {
     {
       title: 'AI/ML',
       icon: <Brain size={20} strokeWidth={1.5} />,
-      skills: ['LangChain', 'Unsloth', 'PyTorch', 'Hugging Face', 'Ollama', 'MLX', 'Prompt Engineering']
+      skills: ['LangChain', 'Unsloth', 'PyTorch', 'Hugging Face', 'Ollama', 'MLX', 'Prompt Engineering', 'Pandas', 'NumPy', 'Jupyter Notebook']
     },
     {
       title: 'Web Development',
@@ -23,7 +23,7 @@ const Skills = () => {
     {
       title: 'DevOps & Tools',
       icon: <Wrench size={20} strokeWidth={1.5} />,
-      skills: ['Git', 'Pandas', 'NumPy','Jupyter Notebook']
+      skills: ['Git', 'Docker']
     },
     {
       title: 'Backend Development',

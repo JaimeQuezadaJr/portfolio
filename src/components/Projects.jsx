@@ -12,7 +12,7 @@ const Projects = () => {
       title: 'Local LLM Assistant',
       icon: <MessageSquare size={32} strokeWidth={1.5} />,
       description: 'Built AIME (AI Messaging Expert) - a sophisticated assistant application that runs entirely on local infrastructure using Ollama. Accessible from any device on your home network, providing a personal AI assistant no matter what device you\'re on while maintaining complete data privacy.',
-      techStack: ['Python', 'Ollama', 'Flask', 'React.js', 'LangChain', 'SQLAlchemy'],
+      techStack: ['Python', 'Ollama', 'Flask', 'React.js', 'LangChain', 'SQLAlchemy', 'Docker'],
       metrics: [
         'Cross-device accessibility via home network',
         'User-friendly graphical interface',
