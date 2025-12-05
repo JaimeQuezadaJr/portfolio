@@ -9,7 +9,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'RAG Document Assistant (DocChat)',
+      title: 'RAG Document Assistant',
       icon: <FileText size={32} strokeWidth={1.5} />,
       description: 'Built a RAG (Retrieval-Augmented Generation) application that enables intelligent document Q&A using local LLMs. Upload PDF documents and chat with them to extract information, with automatic embedding generation and source citations.',
       techStack: ['Python', 'FastAPI', 'LangChain', 'FAISS', 'Ollama', 'React.js', 'Vite', 'Docker'],
@@ -17,8 +17,7 @@ const Projects = () => {
         'Upload and process PDF documents with automatic embedding generation',
         'Chat interface powered by local LLMs (Ollama) for privacy',
         'Fast vector search using FAISS for document retrieval',
-        'Source citations for answers with document references',
-        'Full-stack application with Docker containerization'
+        'Source citations for answers with document references'
       ],
       github: 'https://github.com/JaimeQuezadaJr/rag-env',
       hasVideo: false
