@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageSquare, Mic, ShoppingCart, Code2, ExternalLink, X, Play } from 'lucide-react';
+import { MessageSquare, Mic, ShoppingCart, FileText, Code2, ExternalLink, X, Play } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const Projects = () => {
@@ -9,6 +9,22 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: 'RAG Document Assistant (DocChat)',
+      icon: <FileText size={32} strokeWidth={1.5} />,
+      description: 'Built a RAG (Retrieval-Augmented Generation) application that enables intelligent document Q&A using local LLMs. Upload PDF documents and chat with them to extract information, with automatic embedding generation and source citations.',
+      techStack: ['Python', 'FastAPI', 'LangChain', 'FAISS', 'Ollama', 'React.js', 'Vite', 'Docker'],
+      metrics: [
+        'Upload and process PDF documents with automatic embedding generation',
+        'Chat interface powered by local LLMs (Ollama) for privacy',
+        'Fast vector search using FAISS for document retrieval',
+        'Source citations for answers with document references',
+        'Full-stack application with Docker containerization'
+      ],
+      github: 'https://github.com/JaimeQuezadaJr/rag-env',
+      hasVideo: false
+    },
+    {
+      id: 2,
       title: 'Local LLM Assistant',
       icon: <MessageSquare size={32} strokeWidth={1.5} />,
       description: 'Built AIME (AI Messaging Expert) - a sophisticated assistant application that runs entirely on local infrastructure using Ollama. Accessible from any device on your home network, providing a personal AI assistant no matter what device you\'re on while maintaining complete data privacy.',
@@ -25,7 +41,7 @@ const Projects = () => {
       hasVideo: true
     },
     {
-      id: 2,
+      id: 3,
       title: 'Real-time Transcription App',
       icon: <Mic size={32} strokeWidth={1.5} />,
       description: 'Developed a speech-to-text application utilizing OpenAI\'s Whisper model with Gradio interface. Features live transcription preview as you speak and accurate final output when recording stops.',
@@ -42,7 +58,7 @@ const Projects = () => {
       hasVideo: true
     },
     {
-      id: 3,
+      id: 4,
       title: 'Full-Stack eCommerce Platform',
       icon: <ShoppingCart size={32} strokeWidth={1.5} />,
       description: 'Built a complete eCommerce platform leveraging AI-assisted development and advanced prompt engineering. Showcases rapid prototyping capabilities - delivering a production-ready full-stack application in 7 days, a timeline that traditionally takes 4+ weeks.',
