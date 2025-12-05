@@ -13,7 +13,7 @@ const Skills = () => {
     {
       title: 'AI/ML',
       icon: <Brain size={20} strokeWidth={1.5} />,
-      skills: ['LangChain', 'Unsloth', 'PyTorch', 'Hugging Face', 'Ollama', 'MLX', 'Prompt Engineering', 'Pandas', 'NumPy', 'Jupyter Notebook']
+      skills: ['LangChain', 'PyTorch', 'Hugging Face', 'Ollama', 'MLX', 'Prompt Engineering', 'Pandas', 'NumPy', 'RAG']
     },
     {
       title: 'Web Development',
