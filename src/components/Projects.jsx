@@ -11,7 +11,7 @@ const Projects = () => {
       id: 1,
       title: 'RAG Document Assistant',
       icon: <FileText size={32} strokeWidth={1.5} />,
-      description: 'Built a RAG (Retrieval-Augmented Generation) application that enables intelligent document Q&A using local LLMs. Upload PDF documents and chat with them to extract information, with automatic embedding generation and source citations.',
+      description: 'Built a RAG (Retrieval-Augmented Generation) application that allows you to upload PDF documents while using local LLMs for information retrieval. Automatic chunking and embedding generation when documents are added or removed.',
       techStack: ['Python', 'FastAPI', 'LangChain', 'FAISS', 'Ollama', 'React.js', 'Vite', 'Docker'],
       metrics: [
         'Upload and process PDF documents with automatic embedding generation',
