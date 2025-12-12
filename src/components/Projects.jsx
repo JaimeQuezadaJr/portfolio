@@ -15,7 +15,7 @@ const Projects = () => {
       techStack: ['Python', 'FastAPI', 'LangChain', 'FAISS', 'Ollama', 'React.js', 'Vite', 'Docker'],
       metrics: [
         'Upload and process PDF documents with automatic embedding generation',
-        'Chat interface powered by local LLMs (Ollama) for privacy',
+        'Chat interface powered by local LLMs via Ollama for privacy',
         'Fast vector search using FAISS for document retrieval',
         'Source citations for answers with document references'
       ],
